@@ -1,0 +1,22 @@
+{
+    "name": "qgorak/tests",
+    "authors": [
+        {
+            "name": "qgorak",
+            "email": "q.gorak@gmail.com"
+        }
+    ],
+	"repositories": [
+    { "type": "vcs", "url": "https://github.com/qgorak/Sweetphp" },
+    { "type": "vcs", "url": "https://github.com/qgorak/Sweetphp-devtools" }
+	],
+    "require": {
+		  "qgorak/sweetphp": "dev-master",
+		  "qgorak/sweetphp-devtools": "dev-master"
+	},
+	"autoload": {
+        "psr-4": {
+            "": "app/"
+        }
+    }
+}
